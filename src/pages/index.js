@@ -147,7 +147,7 @@ const IndexPage = () => {
       <title>Tech Blog</title>
      <div style={!isMobile?row:column}>
         <div>
-        {!isMobile? <img  style={img} src={capture} />:<img  style={{width:300,borderRadius:'2em'}} src={capture} />}
+        {!isMobile? <StaticImage  style={img} src={capture} />:<StaticImage  style={{width:300,borderRadius:'2em'}} src={capture} />}
         </div>
       <h1 style={headingStyles}>
         Hi<img style={img2} src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"/> !! I am Mridul Shukla 
