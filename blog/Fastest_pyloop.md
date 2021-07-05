@@ -7,7 +7,7 @@ title: "Fastest Way to Loop in Python"
 
 #### Sum of numbers 0 to n-1 in diffrent ways🔁
 
-```
+<pre><code class="code"> 
 def while_loop(n=1000_000_000):
     i = 0
     s = 0
@@ -15,16 +15,16 @@ def while_loop(n=1000_000_000):
         s += i
         i +=1
     return s    
-``` 
+</code></pre>
 ##### while-loop : =====> Time: 15.257 ⏱️
 
-```
+<pre><code class="code"> 
 def for_loop(n=1000_000_000):
      s=0
      for i in range(n):
           s += i
      return s
-```
+</code></pre>
 ##### For Loop : =====> Time: 9.333⏱️      
 
 lets add some extra code in for loop and some check wrt to time
@@ -97,6 +97,7 @@ def sum_numpy(n=1000_000_000):
     background: #f5f5f5;
     border: 1px solid #ccc;
     font-size: 18px;
+    
     }
     @media screen and (max-width: 480px) {
         .row { flex-direction:column;}
@@ -106,6 +107,7 @@ def sum_numpy(n=1000_000_000):
         }
         .code {
        overflow:scroll;
+       width:100%;
     }
      }
 
