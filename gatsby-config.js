@@ -13,6 +13,7 @@ module.exports = {
     },
     "gatsby-transformer-remark",
     "gatsby-plugin-mdx",
-    "gatsby-plugin-breakpoints"
+    "gatsby-plugin-breakpoints",
+    "gatsby-plugin-image"
   ],
 };
