@@ -1,7 +1,7 @@
 import * as React from "react"
 import Navigation from "../components/navigation"
 import Capture from '../images/Capture.png';
-import {links} from './links';
+
 import resume from '../assets/resume.pdf'
 import { useMediaQuery } from 'react-responsive'
 
