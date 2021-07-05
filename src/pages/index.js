@@ -1,6 +1,6 @@
 import * as React from "react"
 import Navigation from "../components/navigation"
-import Capture from "../images/capture.png" ;
+import capture from "../images/capture.png" ;
 
 import resume from '../assets/resume.pdf'
 import { useMediaQuery } from 'react-responsive'
@@ -147,7 +147,7 @@ const IndexPage = () => {
       <title>Tech Blog</title>
      <div style={!isMobile?row:column}>
         <div>
-        {!isMobile? <img style={img} src={Capture} />:<img style={{width:300,borderRadius:'2em'}} src={Capture} />}
+        {!isMobile? <img style={img} src={capture} />:<img style={{width:300,borderRadius:'2em'}} src={capture} />}
         </div>
       <h1 style={headingStyles}>
         Hi<img style={img2} src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"/> !! I am Mridul Shukla 
