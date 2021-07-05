@@ -1,6 +1,6 @@
 import * as React from "react"
 import Navigation from "../components/navigation"
- 
+import cap from '../images/capture.webp' 
 import { StaticImage } from "gatsby-plugin-image"
 import resume from '../assets/resume.pdf'
 import { useMediaQuery } from 'react-responsive'
@@ -147,7 +147,7 @@ const IndexPage = () => {
       <title>Tech Blog</title>
      <div style={!isMobile?row:column}>
         <div>
-        {!isMobile? <StaticImage  style={img} src='../images/capture.png' />:<StaticImage  style={{width:300,borderRadius:'2em'}} src='../images/capture.png' />}
+        {!isMobile? <img  style={img} src={cap} />:<img  style={{width:300,borderRadius:'2em'}} src={cap} />}
         </div>
       <h1 style={headingStyles}>
         Hi<img style={img2} src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"/> !! I am Mridul Shukla 
