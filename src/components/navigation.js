@@ -11,26 +11,26 @@ import {
 import goku from '../images/goku.webp';
 import { useMediaQuery } from 'react-responsive'
 const Navigation=({children})=>{
-   const isMobile = useMediaQuery({ query: '(max-width: 480px)' })
+  //  const isMobile = useMediaQuery({ query: '(max-width: 480px)' })
 return(
 <main className={container}>
 <nav className={nav}>
-<ul className={!isMobile ?navLinks:column  }>
+<ul className={navLinks}>
   <li >
    <img className={img} src={goku} />
   </li>
   <li className={navLinkItem}>
-    <Link to="/" className={!isMobile ?navLinkText:mobNavLinkText}>
+    <Link to="/" className={navLinkText}>
       Home
     </Link>
   </li>
   <li className={navLinkItem}>
-    <Link to="/blog" className={!isMobile ?navLinkText:mobNavLinkText}>
+    <Link to="/blog" className={navLinkText}>
     Cool Link's for Dev.
     </Link>
   </li>
   <li className={navLinkItem}>
-    <Link to="/about" className={!isMobile ?navLinkText:mobNavLinkText}>
+    <Link to="/about" className={navLinkText}>
       About
     </Link>
   </li>

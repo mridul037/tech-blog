@@ -1,0 +1,144 @@
+ .pageStyles {
+    color: #232129;
+    padding: 96;
+    font-family: -apple-system, Roboto, sans-serif, serif,
+  
+  }
+  .headingStyles {
+    margin-top: 0;
+    margin-bottom: 64;
+    max-width: 440;
+    font-size:50;
+    color:'#363636';
+  }
+  .subheading {
+    color:#ff007f;
+    font-size:20px;
+  }
+  .headingAccentStyles {
+    color: #663399;
+    font-size:30px;
+  }
+  .paragraphStyles  {
+    margin-bottom: 48,
+  }
+ .codeStyles {
+    color: #8A6534;
+    padding: 4;
+    background-color: #FFF4DB;
+    font-size: 1.25rem;
+    border-radius: 4;
+  }
+  .listStyles {
+    margin-bottom: 96;
+    padding-left: 0;
+  }
+  .listItemStyles  {
+    font-weight: 300;
+    font-size: 24;
+    margin-bottom: 30;
+  }
+  
+.linkStyle {
+    color: #8954A8;
+    font-weight: "bold";
+    font-size: 30;
+    vertical-align: 10%;
+  }
+  
+   .docLinkStyle {
+    color: #8954A8;
+    font-weight: bold;
+    font-size: 30;
+    vertical-align: 10%;
+    list-style-type: none;
+    margin-bottom: 24;
+  }
+  
+.descriptionStyle {
+    color: #232129;
+    font-size: 18;
+    margin-top: 10;
+    margin-bottom: 0;
+    
+    line-height: 1.25;
+  }
+  
+  .docLink {
+    text: "Documentation";
+    url: "https://www.gatsbyjs.com/docs/";
+    color: #8954A8;
+  }
+  
+  .badgeStyle  {
+    color: #fff;
+    background-color: #088413;
+    border: 1px solid #088413;
+    font-size: 11;
+    font-weight: bold;
+    letter-spacing: 1;
+    border-radius: 4;
+    padding: 4px 6px;
+    display: inline-block;
+    position: relative;
+    top: -2;
+    margin-left: 10;
+    line-height: 1;
+  }
+  .img2 {
+    width:36px;
+  }
+  .row {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+  }
+  .img {
+    width:420px;
+    border-radius:2em;
+  
+  }
+  .center {
+    text-align:center;
+  }
+  .item {
+    font-size:25px;
+    margin:24px auto;
+    color:#363636;
+  }
+  .hr { 
+      display: block;
+      position: relative;
+      border-top: .1rem solid #ff007f;
+      height : .1rem;
+      margin : 2rem 0;
+      text-align: center;
+  }
+  .social {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+  
+   
+  }
+  .cursor {
+    cursor:pointer;
+  }
+  .column {
+    display:flex;
+    flex-direction:column;
+  }
+  .noPad {
+    padding:0
+  }
+  @media screen and (max-width: 480px) {
+    .row {
+      display:flex;
+      flex-direction:column;
+    }
+    .img {
+      width: 300px;
+      margin-bottom: 30px;
+    }
+  }
