@@ -114,4 +114,22 @@ A race condition means that the correctness of the program (the satisfaction of 
 
 ---
 
-### UNDER BUILD
+A race condition occurs when two or more threads can access shared data and they try to change it at the same time. Because the thread scheduling algorithm can swap between threads at any time, you don't know the order in which the threads will attempt to access the shared data. Therefore, the result of the change in data is dependent on the thread scheduling algorithm, i.e. both threads are "racing" to access/change the data.
+
+Problems often occur when one thread does a "check-then-act" (e.g. "check" if the value is X, then "act" to do something that depends on the value being X) and another thread does something to the value in between the "check" and the "act". 
+
+>>Race condition can be handled by Mutex or Semaphores. They act as a lock allows a process to acquire a resource based on certain requirements to prevent race condition.
+
+
+
+>> How do you prevent race conditions?
+>> Two ways programmers can prevent race conditions in operating systems and other
+
+>> software include:
+
+>> 1) *Avoid shared states*. This means reviewing code to ensure when shared resources are part of a system or process, atomic operations are in place that run independently of other processes and locking is used to enforce the atomic operation of critical sections of code. Immutable objects can also be used that cannot be altered once created.
+
+>> 2) *Use thread synchronization*. Here, a given part of the program can only execute one thread at a time.
+
+
+

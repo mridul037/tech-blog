@@ -59,7 +59,7 @@ def sum_range(n=1000_000_000):
 
 ##### Sum range: 6.37 (wow..!! that was fast)
 
-##### lets Use Numby...
+##### lets Use Numpy...
 <pre><code class="code"> 
 def sum_numpy(n=1000_000_000):
     return numpy.sum(numpy.arange(n))
@@ -69,7 +69,7 @@ def sum_numpy(n=1000_000_000):
 `
 numpy is primarily written in c hence faster than python function's`
 
-But there one more faster way or we can say the fastest way to loop in python
+But there is one more faster way or we can say the fastest way to loop in python
 
 ---
 
@@ -77,11 +77,13 @@ the fastest way to loop in python is to not to loop at all.....😶‍🌫️
 using math function to rescue.
 
 <pre><code class="code"> 
+
 def sum_numpy(n=1000_000_000):
     return  (n*(n - 1))//2
+
 </code></pre>
 
-#### math sum time:====>2.80000000423867e-06 (way lesser time than before 😵‍💫)
+#### math sum time:====> `2.80000000423867e-06 (way lesser time than before 😵‍💫)`
 
 
 <style>
