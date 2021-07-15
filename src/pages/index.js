@@ -47,7 +47,8 @@ const IndexPage = () => {
               them
             </li>
             <li className={styles.item}>
-              Will Include some article about Coding,System Design,Vue,React,Python,Javascript,data analysis
+              Will Include some article about Coding,System Design,Vue,
+              React,Python,Javascript,data analysis
               and other stuff.
             </li>
             {/* <li style={item}>
