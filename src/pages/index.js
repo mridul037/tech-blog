@@ -17,11 +17,12 @@ const IndexPage = () => {
         <title>Tech Blog</title>
         <div className={styles.row}>
           <div>
-            <img className={styles.img} src={cap} />
+            <img  alt="" className={styles.img} src={cap} />
           </div>
           <h1 className={styles.headingStyles}>
             Hi
             <img
+            alt=""
               className={styles.img2}
               src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"
             />{" "}
@@ -61,24 +62,28 @@ const IndexPage = () => {
         <div className={styles.social}>
           <a href="https://www.facebook.com/mridul.shukla.524/">
             <img
+             alt=""
               className={styles.cursor}
               src="https://img.icons8.com/office/48/000000/facebook-new.png"
             />
           </a>
           <a href="https://www.linkedin.com/in/mridul-shukla-899123174/">
             <img
+             alt=""
               className={styles.cursor}
               src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png"
             />
           </a>
           <a href="https://github.com/mridul037">
             <img
+             alt=""
               className={styles.cursor}
               src="https://img.icons8.com/fluent/48/000000/github.png"
             />
           </a>
           <a href={resume} download>
             <img
+             alt=""
               className={styles.cursor}
               src="https://img.icons8.com/office/48/000000/pdf.png"
             />
